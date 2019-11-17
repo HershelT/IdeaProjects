@@ -1,0 +1,160 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        int pinNumber;
+        pinNumber = 8764;
+        System.out.println("TYPE IN YOUR PASSWORD!!!");
+        int GuessA;
+        do {
+          Scanner Guess = new Scanner(System.in);
+          GuessA = Guess.nextInt();
+          if (GuessA != pinNumber) {
+            System.out.println("OOP'S WRONG PASSWORD!! TRY AGAIN");
+            continue;
+          } 
+        } while (GuessA != pinNumber);
+        System.out.println("THE MATRIX HAS BEEN UNLOCKED");
+        int x;
+        x = 0;
+        String name;
+        Scanner UserInput = new Scanner(System.in);
+        System.out.println("What is your name?");
+        name = UserInput.nextLine();
+        System.out.println("Hello " + name + "!");
+        int Age;
+        System.out.println("what is your age?");
+        Age = UserInput.nextInt();
+        if (Age >= 13) {
+            System.out.println("Congratulations you are over bar mitzvah because you are " + Age);
+        } else if (Age < 13) {
+            System.out.println("You are almost bar mitzvah because your are " + Age);
+        } else {
+            System.out.println("You did not provide a number so we will continue!");
+        }
+        do { 
+          Scanner Calculator = new Scanner(System.in);
+          System.out.println("Welcome to the calculator world. Would you like to Add, Subtract, Multiply, or Divide?");
+          String Calc;
+          String Addition;
+          Addition = "Add";
+          String Subtraction;
+          Subtraction = "Subtract";
+          String Multiplication;
+          Multiplication = "Multiply";
+          String Division;
+          Division = "Divide";
+          Calc = Calculator.nextLine();
+          if (Calc.equals(Addition)) {
+              System.out.println("You would like to add. Please type in your first number that you want to add");
+              int FirstN;
+              FirstN = Calculator.nextInt();
+              System.out.println("Your first number is " + FirstN + " Now please type in your second number you would like to add");
+              int SecondN;
+              SecondN = Calculator.nextInt();
+              System.out.println("Your second Number is " + SecondN + " Now I will do my magic and add your numbers together");
+              System.out.println("Calculating...");
+              int Final;
+              Final = FirstN + SecondN;
+              System.out.println("Your final answer is " + Final);
+              Scanner YorN = new Scanner(System.in);
+              System.out.println("Would you like to do another calculation? Yes or No");
+              String YesorNo;
+              YesorNo = YorN.nextLine();
+              String Answer1;
+              String Answer2;
+              Answer1 = "Yes";
+              Answer2 = "No";
+              if (YesorNo.equals(Answer1)) {
+                System.out.println("You would like to continue!");
+                x = 0;
+              }else  {
+                System.out.println("You would not like to continue");
+                break;
+              }  
+          } if (Calc.equals(Subtraction)) {
+              System.out.println("You would like to Subtract. Please type in your first number that you want to Subtract");
+              int FirstN;
+              FirstN = Calculator.nextInt();
+              System.out.println("Your first number is " + FirstN + " Now please type in your second number you would like to Subtract");
+              int SecondN;
+              SecondN = Calculator.nextInt();
+              System.out.println("Your second Number is " + SecondN + " Now I will do my magic and subtract your numbers from eacother");
+              System.out.println("Calculating...");
+              int Final;
+              Final = FirstN - SecondN;
+              System.out.println("Your final answer is " + Final);
+              Scanner YorN = new Scanner(System.in);
+              System.out.println("Would you like to do another calculation? Yes or No");
+              String YesorNo;
+              YesorNo = YorN.nextLine();
+              String Answer1;
+              String Answer2;
+              Answer1 = "Yes";
+              Answer2 = "No";
+              if (YesorNo.equals(Answer1)) {
+                System.out.println("You would like to continue!");
+                x = 0;
+              }else  {
+                System.out.println("You would not like to continue");
+                break;
+              }  
+          } if (Calc.equals(Multiplication)) {
+              System.out.println("You would like to Multiply. Please type in your first number that you want to Multiply");
+              int FirstN;
+              FirstN = Calculator.nextInt();
+              System.out.println("Your first number is " + FirstN + " Now please type in your second number you would like to Multiply");
+              int SecondN;
+              SecondN = Calculator.nextInt();
+              System.out.println("Your second Number is " + SecondN + " Now I will do my magic and Multiply your numbers together");
+              System.out.println("Calculating...");
+              int Final;
+              Final = FirstN * SecondN;
+              System.out.println("Your final answer is " + Final);
+              Scanner YorN = new Scanner(System.in);
+              System.out.println("Would you like to do another calculation? Yes or No");
+              String YesorNo;
+              YesorNo = YorN.nextLine();
+              String Answer1;
+              String Answer2;
+              Answer1 = "Yes";
+              Answer2 = "No";
+              if (YesorNo.equals(Answer1)) {
+                System.out.println("You would like to continue!");
+                x = 0;
+              }else  {
+                System.out.println("You would not like to continue");
+                break;
+              }  
+          } if (Calc.equals(Division)) {
+              System.out.println("You would like to Divide. Please type in your first number that you want to Divide");
+              int FirstN;
+              FirstN = Calculator.nextInt();
+              System.out.println("Your first number is " + FirstN + " Now please type in your second number you would like to be as the denominator");
+              int SecondN;
+              SecondN = Calculator.nextInt();
+              System.out.println("Your second Number is " + SecondN + " Now I will do my magic and divide your numbers from eachother");
+              System.out.println("Calculating...");
+              int Final;
+              Final = FirstN / SecondN;
+              int Rem;
+              Rem = FirstN % SecondN;
+              System.out.println("Your final answer is " + Final + " Your remainder is " + Rem);
+              Scanner YorN = new Scanner(System.in);
+              System.out.println("Would you like to do another calculation? Yes or No");
+              String YesorNo;
+              YesorNo = YorN.nextLine();
+              String Answer1;
+              String Answer2;
+              Answer1 = "Yes";
+              Answer2 = "No";
+              if (YesorNo.equals(Answer1)) {
+                System.out.println("You would like to continue!");
+                x = 0;
+              }else  {
+                System.out.println("You would not like to continue");
+                break;
+              }  
+          }    
+        } while (x == 0);
+    }
+}
