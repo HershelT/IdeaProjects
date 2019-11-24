@@ -11,12 +11,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/helloworld" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1T76oMd3C8vr4n02mU6Ji2WE1cH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,34 +40,41 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Bob">
-    <configuration name="Bob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Bob" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bob" />
       <module name="HelloWorl02" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Condition" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Condition" />
+      <module name="HelloWorl02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
       <module name="HelloWorl02" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HershelBudget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HershelBudget" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HershelBudget" />
       <module name="HelloWorl02" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Bob" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.HershelBudget" />
-      </list>
-    </recent_temporary>
+    <configuration name="yes" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yes" />
+      <module name="HelloWorl02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
