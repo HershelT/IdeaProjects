@@ -14,10 +14,7 @@ public class yes {
         for (String user: users) {
             System.out.println(user);
         }
-
-
+    }
 }
 
-
-}
 
